@@ -4,7 +4,7 @@ var sum = 0; //plugging in 0 for sum. Since it is a var instead of const, it can
 for (var i = 0; i < prices.length; i++) { //i is a placeholder variable for the array. This is saying if the number in "i" is less than the array length, increase the amount until the max length is acheived
   sum += prices[i]; // This is the same as prices[0] + prices[1] + prices[2], and so on.
 }
-document.write("The sum is:", sum);// we plug it in
+document.write("The sum is:", sum)// we plug it in
 
 // time for a song!
 
